@@ -12,7 +12,7 @@ get_header(); ?>
 			<button id="master-plan">Master Plan</button>
 		</li>
 		<li>
-			<button id="mix-use">Mix Use</button>
+			<button id="mixed-use">Mixed Use</button>
 		</li>
 		<li>
 			<button id="retail">Retail</button>

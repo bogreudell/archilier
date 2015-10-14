@@ -473,6 +473,10 @@ h1, h2, h3 {
         border-bottom:1px solid #c8c8c8;
     }
 
+    .single .main {
+        overflow:hidden;
+    }
+
     .main:first-of-type {
         padding-top:3rem;
     }
@@ -650,6 +654,35 @@ h1, h2, h3 {
         .single-feature-img img {
             width:100%;
             height:auto;
+        }
+
+        .flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {
+            background:0;
+            opacity:.8 !important;
+        }
+
+        .flex-direction-nav .flex-next:hover, .flex-direction-nav .flex-prev:hover {
+            opacity:1 !important;
+        }
+
+        .flex-direction-nav .flex-next {
+            margin-right: 15px;
+            right: 15px !important;
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            -webkit-transform: rotate(315deg);
+            -moz-transform: rotate(315deg);
+            transform: rotate(315deg);
+        }
+
+        .flex-direction-nav .flex-prev {
+            margin-left: 15px;
+            left: 15px !important;
+            border-bottom: 2px solid #fff;
+            border-left: 2px solid #fff;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
         }
 
         /*.single-featured-img img {
@@ -1342,6 +1375,16 @@ h1, h2, h3 {
     }    
 }
 
+@media all and (max-width:1260px) {
+
+    .join-form input, .join-form select {
+        float:none;
+        display:block;
+        margin-top:10px;
+    }
+
+}
+
 @media all and (max-width:1184px) {
     .aside-text {
         padding-top:0;
@@ -1575,6 +1618,24 @@ h1, h2, h3 {
     .single .project-location {
         margin-left: 0;
     }
+
+    .page-template-contact-php h1 {
+        text-align:center !important;
+    }
+
+    .blog-wrapper.careers {
+        width:100%;
+        margin:4% 0;
+    }
+
+    .join-form {
+        width:90%;
+        padding:0 5%;
+    }
+
+        .width-1, .width-2, .width-3 {
+            width:100%;
+        }
 
     #footer {
         padding-top:4%;
