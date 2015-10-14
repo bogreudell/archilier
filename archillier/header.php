@@ -10,7 +10,8 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="<?php bloginfo('url'); ?>/wp-content/themes/archillier/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<?php bloginfo('url'); ?>/wp-content/themes/archillier/favicon.ico" type="image/x-icon">
 
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />        
         <script src="<?php bloginfo('url'); ?>/wp-content/themes/archillier/js/vendor/modernizr-2.6.2.min.js"></script>
